@@ -68,6 +68,7 @@ Keymap {
 			nil, nil, nil, nil, nil, nil, nil, nil, nil, nil,
 			nil, nil, nil, nil, nil, nil, nil, nil, nil, nil,
 			nil, nil, "space", "!", "\"", "#", nil, "%", "&", "'",
+			// ' " <- work around https://github.com/supercollider/supercollider/issues/3352
 			"(", ")", "*", "+", ",", "-", ".", "/", "0", "1",
 			"2", "3", "4", "5", "6", "7", "8", "9", ":", ";", // 5
 			"<", "=", ">", "?", "@", "A", "B", "C", "D", "E",
